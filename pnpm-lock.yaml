@@ -19,6 +19,10 @@ overrides:
 importers:
 
   .:
+    dependencies:
+      yaml:
+        specifier: ^2.8.0
+        version: 2.8.2
     devDependencies:
       '@changesets/cli':
         specifier: ^2.27.10
