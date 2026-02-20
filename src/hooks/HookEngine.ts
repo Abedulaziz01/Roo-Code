@@ -1,5 +1,6 @@
 import { ToolHook } from "./ToolHook"
-
+import { ScopeEnforcementHook } from "./ScopeEnforcementHook"
+import { HITLHook } from "./HITLHook"
 export class HookEngine {
 	private preHooks: ToolHook[] = []
 	private postHooks: ToolHook[] = []
