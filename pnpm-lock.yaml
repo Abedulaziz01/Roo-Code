@@ -20,6 +20,9 @@ importers:
 
   .:
     dependencies:
+      ollama:
+        specifier: ^0.5.18
+        version: 0.5.18
       yaml:
         specifier: ^2.8.0
         version: 2.8.2
@@ -919,7 +922,7 @@ importers:
         specifier: ^12.0.0
         version: 12.0.0
       ollama:
-        specifier: ^0.5.17
+        specifier: ^0.5.18
         version: 0.5.18
       openai:
         specifier: ^5.12.2

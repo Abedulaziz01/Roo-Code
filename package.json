@@ -75,6 +75,7 @@
 		}
 	},
 	"dependencies": {
+		"ollama": "^0.5.18",
 		"yaml": "^2.8.0"
 	}
 }
